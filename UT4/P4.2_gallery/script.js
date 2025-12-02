@@ -39,7 +39,7 @@ function createGalleryItem(image) {
     const item = document.createElement('div');
     item.className = 'gallery-item';
     
-    const basePath = '../resize_img/output-adv/';
+    const basePath = 'UT4/resize_img/output-adv/';
     
    
     const picture = document.createElement('picture');
@@ -96,7 +96,7 @@ function createGalleryItem(image) {
 function openModal(image) {
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modal-image');
-    const basePath = '../resize_img/output-adv/';
+    const basePath = 'UT4/resize_img/output-adv/';
     
   
     const density = window.devicePixelRatio >= 2 ? '2x' : '1x';
